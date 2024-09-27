@@ -1,0 +1,16 @@
+* {
+    margin: 1px 0px 10px 0px;
+    padding: 0px;
+}
+
+.div1 {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-auto-rows: minmax(90%, 90%);
+}
+
+.div2 {
+    display: grid;
+    grid-template-columns: 50px 100px;
+    grid-auto-rows: minmax(90%, 90%);
+}
